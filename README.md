@@ -106,3 +106,17 @@ leaflet.js
 ![demo](screenshots/dashboard1.png)
 
 ![demo](screenshots/dashboard2.png)
+
+En dessous de la carte se trouve un bouton "refresh" permettant de rafraichir la carte à l'aide d'une requête ajax dont le code se trouve dans le fichier "static/js/app.js"
+
+# Les données en base de données
+
+![demo](screenshots/data.png)
+
+# Note
+
+Il faut une connection internet active pour le projet puisse télécharger les fichiers cdn des librairies suivantes
+
+- leaflet.css
+- leaflet.js
+- axios.js
