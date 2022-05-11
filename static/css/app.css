@@ -1,0 +1,14 @@
+html,
+body {
+  height: 100%;
+  margin: 0;
+}
+
+#map {
+  width: 600px;
+  height: 400px;
+}
+
+button {
+  margin-top: 10px;
+}
