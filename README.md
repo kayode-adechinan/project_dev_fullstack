@@ -1,5 +1,11 @@
 # Récupérer le projet
 
+```bash
+
+$ git clone git@github.com:kayode-adechinan/project_dev_fullstack.git
+
+```
+
 # Configurer la base de données mysql
 
 On peut configurer la base de données en changeant les valeurs suivantes:
@@ -33,6 +39,8 @@ $ python socket_server.py
 
 ```
 
+![demo](screenshots/server.png)
+
 # Démarrer le client pour l'envoie de données
 
 ```bash
@@ -40,6 +48,8 @@ $ python socket_server.py
 $ python socket_client.py
 
 ```
+
+![demo](screenshots/client.png)
 
 # Pause de 2 seconds
 
@@ -92,3 +102,7 @@ http://localhost:5000/
 - La carte google map utilise la librairie
 
 leaflet.js
+
+![demo](screenshots/dashboard1.png)
+
+![demo](screenshots/dashboard2.png)
