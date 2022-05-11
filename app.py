@@ -11,6 +11,7 @@ db_conn = connect(
     password=DB_PASSWORD,
     host=DB_HOST,
     database=DB_NAME,
+    autocommit=True,
 )
 
 cursor = db_conn.cursor()

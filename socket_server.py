@@ -10,6 +10,7 @@ db_conn = connect(
     password=DB_PASSWORD,
     host=DB_HOST,
     database=DB_NAME,
+    autocommit=True,
 )
 
 cursor = db_conn.cursor()
@@ -49,4 +50,4 @@ with socket.socket(socket.AF_INET, socket.SOCK_STREAM) as s:
                 insert_records_query,
                 line,
             )
-            db_conn.commit()
+            # db_conn.commit()

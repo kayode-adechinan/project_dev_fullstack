@@ -46,8 +46,7 @@ def create_table():
     """
     cursor.execute(create_records_table_query)
 
-    # Creating a cursor object using the cursor() method
-    cursor = conn.cursor()
+    conn.close()
 
 
 if __name__ == "__main__":
